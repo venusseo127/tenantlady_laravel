@@ -1,0 +1,38 @@
+{
+  "_index.esm-D11YJ5Cy.js": {
+    "file": "assets/index.esm-D11YJ5Cy.js",
+    "name": "index.esm"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-DL2JEVC8.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-C4CkjPDJ.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/fcm.js"
+    ]
+  },
+  "resources/js/fcm.js": {
+    "file": "assets/fcm-CtXjOGlk.js",
+    "name": "fcm",
+    "src": "resources/js/fcm.js",
+    "isEntry": true,
+    "imports": [
+      "_index.esm-D11YJ5Cy.js"
+    ]
+  },
+  "resources/js/firebase-auth.js": {
+    "file": "assets/firebase-auth-Bgi8opHB.js",
+    "name": "firebase-auth",
+    "src": "resources/js/firebase-auth.js",
+    "isEntry": true,
+    "imports": [
+      "_index.esm-D11YJ5Cy.js"
+    ]
+  }
+}
